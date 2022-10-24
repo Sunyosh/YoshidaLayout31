@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Japanese food"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ScrollView
+        android:layout_width="416dp"
+        android:layout_height="681dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sushi"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/sushi1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="199dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Udon"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        app:srcCompat="@drawable/udon" />
+
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yakitori"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="170dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/yakitori" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Miso Soup"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        app:srcCompat="@drawable/miso" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tempura"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/tempura" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sashimi"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="170dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        app:srcCompat="@drawable/sashimi" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ramen"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/ramen" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Donburi"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="173dp"
+                        android:layout_height="130dp"
+                        android:layout_margin="20dp"
+                        app:srcCompat="@drawable/donbur" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
